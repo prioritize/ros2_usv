@@ -1,0 +1,127 @@
+[0.097s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.097s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x764fd3413470>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x764fd3bba240>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x764fd3bba240>>)
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.156s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jared/CPPProjects/usv_gazebo_ros_sim/src'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(usv_autonomy) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(usv_autonomy) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(usv_autonomy) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(usv_autonomy) by extensions ['colcon_pkg']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(usv_autonomy) by extension 'colcon_pkg'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(usv_autonomy) by extensions ['colcon_meta']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(usv_autonomy) by extension 'colcon_meta'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(usv_autonomy) by extensions ['ros']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(usv_autonomy) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'usv_autonomy' with type 'ros.ament_cmake' and name 'usv_autonomy'
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.181s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.199s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.201s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 211 installed packages in /opt/ros/jazzy
+[0.201s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'usv_autonomy' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'usv_autonomy' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'usv_autonomy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'usv_autonomy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'usv_autonomy' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'usv_autonomy' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'usv_autonomy' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'usv_autonomy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'usv_autonomy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'usv_autonomy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/build/usv_autonomy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy', 'merge_install': False, 'path': '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/usv_autonomy', 'symlink_install': True, 'test_result_base': None}
+[0.228s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.229s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.229s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/usv_autonomy' with build type 'ament_cmake'
+[0.229s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/usv_autonomy'
+[0.231s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.231s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.231s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/build/usv_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv-ardupilot) VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/jared/CPPProjects/usv_gazebo_ros_sim/src/usv_autonomy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy
+[1.338s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/build/usv_autonomy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv-ardupilot) VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake /home/jared/CPPProjects/usv_gazebo_ros_sim/src/usv_autonomy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy
+[1.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/build/usv_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv-ardupilot) VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/jared/CPPProjects/usv_gazebo_ros_sim/src/build/usv_autonomy -- -j12 -l12
+[1.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/build/usv_autonomy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv-ardupilot) VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --build /home/jared/CPPProjects/usv_gazebo_ros_sim/src/build/usv_autonomy -- -j12 -l12
+[1.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/build/usv_autonomy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv-ardupilot) VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/jared/CPPProjects/usv_gazebo_ros_sim/src/build/usv_autonomy
+[1.491s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usv_autonomy)
+[1.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/build/usv_autonomy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(venv-ardupilot) VIRTUAL_ENV_PROMPT=(venv-ardupilot) /usr/bin/cmake --install /home/jared/CPPProjects/usv_gazebo_ros_sim/src/build/usv_autonomy
+[1.493s] Level 1:colcon.colcon_core.environment:checking '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy' for CMake module files
+[1.493s] Level 1:colcon.colcon_core.environment:checking '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy' for CMake config files
+[1.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_autonomy', 'cmake_prefix_path')
+[1.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/share/usv_autonomy/hook/cmake_prefix_path.ps1'
+[1.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/share/usv_autonomy/hook/cmake_prefix_path.dsv'
+[1.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/share/usv_autonomy/hook/cmake_prefix_path.sh'
+[1.495s] Level 1:colcon.colcon_core.environment:checking '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/bin'
+[1.495s] Level 1:colcon.colcon_core.environment:checking '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/lib/pkgconfig/usv_autonomy.pc'
+[1.495s] Level 1:colcon.colcon_core.environment:checking '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/lib/python3.12/site-packages'
+[1.496s] Level 1:colcon.colcon_core.environment:checking '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/bin'
+[1.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/share/usv_autonomy/package.ps1'
+[1.497s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/share/usv_autonomy/package.dsv'
+[1.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/share/usv_autonomy/package.sh'
+[1.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/share/usv_autonomy/package.bash'
+[1.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/share/usv_autonomy/package.zsh'
+[1.499s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/share/colcon-core/packages/usv_autonomy)
+[1.500s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(usv_autonomy)
+[1.500s] Level 1:colcon.colcon_core.environment:checking '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy' for CMake module files
+[1.500s] Level 1:colcon.colcon_core.environment:checking '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy' for CMake config files
+[1.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('usv_autonomy', 'cmake_prefix_path')
+[1.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/share/usv_autonomy/hook/cmake_prefix_path.ps1'
+[1.501s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/share/usv_autonomy/hook/cmake_prefix_path.dsv'
+[1.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/share/usv_autonomy/hook/cmake_prefix_path.sh'
+[1.502s] Level 1:colcon.colcon_core.environment:checking '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/bin'
+[1.502s] Level 1:colcon.colcon_core.environment:checking '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/lib/pkgconfig/usv_autonomy.pc'
+[1.502s] Level 1:colcon.colcon_core.environment:checking '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/lib/python3.12/site-packages'
+[1.502s] Level 1:colcon.colcon_core.environment:checking '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/bin'
+[1.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/share/usv_autonomy/package.ps1'
+[1.503s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/share/usv_autonomy/package.dsv'
+[1.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/share/usv_autonomy/package.sh'
+[1.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/share/usv_autonomy/package.bash'
+[1.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/share/usv_autonomy/package.zsh'
+[1.504s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/usv_autonomy/share/colcon-core/packages/usv_autonomy)
+[1.504s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.505s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.505s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.505s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.509s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.509s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.509s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[26.534s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+[26.534s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[26.534s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/local_setup.ps1'
+[26.535s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/_local_setup_util_ps1.py'
+[26.536s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/setup.ps1'
+[26.537s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/local_setup.sh'
+[26.537s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/_local_setup_util_sh.py'
+[26.537s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/setup.sh'
+[26.538s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/local_setup.bash'
+[26.538s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/setup.bash'
+[26.539s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/local_setup.zsh'
+[26.539s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jared/CPPProjects/usv_gazebo_ros_sim/src/install/setup.zsh'
