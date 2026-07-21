@@ -1,9 +1,0 @@
-/home/jared/CPPProjects/usv_gazebo_ros_sim/src/build/usv_autonomy/CMakeFiles/uninstall.dir
-/home/jared/CPPProjects/usv_gazebo_ros_sim/src/build/usv_autonomy/CMakeFiles/usv_autonomy_uninstall.dir
-/home/jared/CPPProjects/usv_gazebo_ros_sim/src/build/usv_autonomy/CMakeFiles/test.dir
-/home/jared/CPPProjects/usv_gazebo_ros_sim/src/build/usv_autonomy/CMakeFiles/edit_cache.dir
-/home/jared/CPPProjects/usv_gazebo_ros_sim/src/build/usv_autonomy/CMakeFiles/rebuild_cache.dir
-/home/jared/CPPProjects/usv_gazebo_ros_sim/src/build/usv_autonomy/CMakeFiles/list_install_components.dir
-/home/jared/CPPProjects/usv_gazebo_ros_sim/src/build/usv_autonomy/CMakeFiles/install.dir
-/home/jared/CPPProjects/usv_gazebo_ros_sim/src/build/usv_autonomy/CMakeFiles/install/local.dir
-/home/jared/CPPProjects/usv_gazebo_ros_sim/src/build/usv_autonomy/CMakeFiles/install/strip.dir

@@ -1,1 +1,0 @@
-/home/jared/CPPProjects/usv_gazebo_ros_sim/src/build/usv_autonomy/ament_cmake_environment_hooks/local_setup.zsh
