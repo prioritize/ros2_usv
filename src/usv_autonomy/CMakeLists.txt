@@ -10,10 +10,16 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
 find_package(tf2_msgs REQUIRED)
 add_executable(pose_subscriber src/pose_subscriber.cpp)
-ament_target_dependencies(pose_subscriber rclcpp geometry_msgs tf2_msgs)
+add_executable(control_loop src/control_loop.cpp)
+
+ament_target_dependencies(pose_subscriber rclcpp geometry_msgs tf2_msgs sensor_msgs)
+ament_target_dependencies(control_loop rclcpp sensor_msgs std_msgs)
 install(TARGETS pose_subscriber DESTINATION lib/${PROJECT_NAME})
+install(TARGETS control_loop DESTINATION lib/${PROJECT_NAME})
+
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
